@@ -64,28 +64,3 @@ let result3 = calculateLeaderboardPlaces([{ userId: "id1", score: 55 }], {
 console.log("test3", checkResult(result3, [{ userId: "id1", place: 2 }]));
 
 console.log("-----------------------------------------------------");
-
-// let result1 = calculateLeaderboardPlaces(
-//   [
-//     { userId: "id1", score: 3 },
-//     { userId: "id2", score: 2 },
-//     { userId: "id3", score: 1 },
-//   ],
-//   { firstPlaceMinScore: 100, secondPlaceMinScore: 50, thirdPlaceMinScore: 10 }
-// );
-// let result2 = calculateLeaderboardPlaces(
-//   [
-//     { userId: "id1", score: 100 },
-//     { userId: "id2", score: 3 },
-//     { userId: "id3", score: 2 },
-//     { userId: "id4", score: 1 },
-//   ],
-//   { firstPlaceMinScore: 100, secondPlaceMinScore: 50, thirdPlaceMinScore: 10 }
-// );
-// let result3 = calculateLeaderboardPlaces([{ userId: "id1", score: 55 }], {
-//   firstPlaceMinScore: 100,
-//   secondPlaceMinScore: 50,
-//   thirdPlaceMinScore: 10,
-// });
-
-// console.log({ result1, result2, result3 });
